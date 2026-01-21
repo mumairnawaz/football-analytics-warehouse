@@ -19,7 +19,9 @@
 
 ---
 
-<table width="90%" align="center"> <tr><td>
+
+
+  
 ## Background
 
 Elite football competitions generate substantial commercial value through broadcasting rights, sponsorships, and global fan engagement. However, leagues differ significantly in competitiveness, scoring behavior, and team dominance.
@@ -36,8 +38,8 @@ Where do structural advantages exist?
 
 The analysis focuses on delivering decision-oriented insights, not descriptive statistics.
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 
   ---
   
@@ -67,8 +69,8 @@ Football analysts
 
 This is a business analytics project, not a fan-driven analysis.
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 
   ---
 
@@ -84,8 +86,8 @@ Produce business-focused KPIs to support strategic decision-making
 
 This is not a dashboard-only project — it demonstrates end-to-end analytics ownership, from ingestion to insight.
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 Data Architecture & Methodology
 
 A medallion-style analytics architecture was implemented to ensure reliability, auditability, and scalability.
@@ -114,12 +116,12 @@ Optimized for SQL analytics and BI consumption
 
 This mirrors enterprise data warehouse design, not ad-hoc analysis.
 
-</td></tr> </table>
+
 
 ---
 
 Business Insights
-<table width="90%" align="center"> <tr><td>
+
 Insight 1: Scoring Intensity Across Competitions
 
 💡 Insight
@@ -130,8 +132,8 @@ The UEFA Champions League consistently records the highest average goals per mat
 </p>
 
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 Insight 2: Home Advantage Is Structural
 
 💡 Insight
@@ -142,11 +144,11 @@ Home teams score more goals across all competitions and seasons, confirming home
 </p>
 
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
+
+
 Insight 4: Competitive Balance by League
 
 💡 Insight
@@ -157,8 +159,8 @@ Domestic leagues such as LaLiga and the Premier League show wider performance ga
 </p>
 
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 Insight 5: Scoring Volatility in Champions League
 
 💡 Insight
@@ -169,9 +171,9 @@ The Champions League exhibits higher year-over-year scoring volatility, driven b
 </p>
 
 
-</td></tr> </table>
+
 Strategic Recommendations
-<table width="90%" align="center"> <tr><td>
+
 
 ## Based on these findings:
 
@@ -183,8 +185,8 @@ Clubs can benchmark dominance relative to league norms
 
 Analysts can integrate KPIs into forecasting and valuation models
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 ## Analytics Deliverables
 
 This project delivers:
@@ -199,8 +201,8 @@ Executive-level visualizations
 
 Scalable warehouse design
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 ## Tools & Analytics Stack
 
 SQL (DuckDB)
@@ -211,8 +213,8 @@ Excel / Power BI (Visualization)
 
 GitHub (Version Control & Presentation)
 
-</td></tr> </table>
-<table width="90%" align="center"> <tr><td>
+
+
 ## Final Outcome
 
 This project demonstrates:
@@ -227,4 +229,4 @@ Decision-focused insights
 
 This reflects real-world analytics work, not academic exercises.
 
-</td></tr> </table>
+
