@@ -1,32 +1,21 @@
-📑 Table of Contents
+---
 
-Background
+## Table of Contents
 
-Executive Summary
-
-Project Objective
-
-Data Architecture & Methodology
-
-Business Insights
-
-Insight 1: Scoring Intensity Across Competitions
-
-Insight 2: Home Advantage Is Structural
-
-Insight 3: Team Performance Concentration
-
-Insight 4: Competitive Balance by League
-
-Insight 5: Scoring Volatility in Champions League
-
-Strategic Recommendations
-
-Analytics Deliverables
-
-Tools & Analytics Stack
-
-Final Outcome
+> - [Background](#background)
+> - [Executive Summary](#executive-summary)
+> - [Project Objective](#project-objective)
+> - [Data Architecture & Methodology](#data-architecture--methodology)
+> - [Business Insights](#business-insights)
+>   - [Insight 1: Scoring Intensity Varies Across Competitions](#insight-1-scoring-intensity-varies-across-competitions)
+>   - [Insight 2: Home Advantage Is Structural, Not Random](#insight-2-home-advantage-is-structural-not-random)
+>   - [Insight 3: A Small Set of Teams Drive League Performance](#insight-3-a-small-set-of-teams-drive-league-performance)
+>   - [Insight 4: Competitive Balance Differs by League](#insight-4-competitive-balance-differs-by-league)
+>   - [Insight 5: Champions League Shows Higher Scoring Volatility](#insight-5-champions-league-shows-higher-scoring-volatility)
+> - [Strategic Recommendations](#strategic-recommendations)
+> - [Analytics Deliverables](#analytics-deliverables)
+> - [Tools & Analytics Stack](#tools--analytics-stack)
+> - [Final Outcome](#final-outcome)
 
 <table width="90%" align="center"> <tr><td>
 ## Background
@@ -125,8 +114,10 @@ Insight 1: Scoring Intensity Across Competitions
 💡 Insight
 The UEFA Champions League consistently records the highest average goals per match, indicating a more open and aggressive scoring environment compared to domestic leagues.
 
-📊 Visual: Score Intensity (Average Goals per Match)
-(Insert: Score Intensity chart)
+<p align="center">
+  <img src="visuals/Score%20Intensity.png" width="100%">
+</p>
+
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
@@ -135,26 +126,13 @@ Insight 2: Home Advantage Is Structural
 💡 Insight
 Home teams score more goals across all competitions and seasons, confirming home advantage as a structural factor rather than random variation.
 
-📊 Visual: Home vs Away Goals KPI
-(Insert: Home Advantage visualization)
+<p align="center">
+  <img src="visuals/Home%20Advantage%20KPI.png" width="100%">
+</p>
+
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
-Insight 3: Team Performance Concentration
-
-💡 Insight
-A limited group of elite clubs (e.g., FC Barcelona, Manchester City, Arsenal) consistently dominate goal difference rankings.
-
-Business Implications:
-
-Revenue concentration risk
-
-Competitive imbalance
-
-Increased predictability in outcomes
-
-📊 Visual: Top Teams by Goal Difference
-(Insert: Top Teams chart)
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
@@ -163,8 +141,10 @@ Insight 4: Competitive Balance by League
 💡 Insight
 Domestic leagues such as LaLiga and the Premier League show wider performance gaps than the Champions League, indicating uneven competitiveness.
 
-📊 Visual: Competitiveness Gap by Competition
-(Insert: Competitiveness Gap chart)
+<p align="center">
+  <img src="visuals/League%20Competitiveness.png" width="100%">
+</p>
+
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
@@ -173,8 +153,10 @@ Insight 5: Scoring Volatility in Champions League
 💡 Insight
 The Champions League exhibits higher year-over-year scoring volatility, driven by knockout dynamics and elite team concentration.
 
-📊 Visual: Scoring Volatility by Competition
-(Insert: Scoring Volatility chart)
+<p align="center">
+  <img src="visuals/Scoring%20Volatility%20by%20Competition%20(2024%20vs%202025).png" width="100%">
+</p>
+
 
 </td></tr> </table>
 Strategic Recommendations
