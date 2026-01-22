@@ -123,8 +123,17 @@ This mirrors **enterprise data warehouse design**, not ad-hoc analysis.
 
 ## Scoring Intensity Across Competitions
 
-💡 **Insight**  
-The UEFA Champions League consistently records the highest average goals per match, indicating a more open and aggressive scoring environment compared to domestic leagues.
+The UEFA Champions League consistently demonstrates the highest scoring intensity, with average goals per match exceeding both** LaLiga and the Premier League across the 2024 and 2025 seasons**. As shown in the visualization, Champions League matches average above 3.3 goals per match, compared to approximately 2.6–2.9 goals in domestic leagues. This indicates a structurally more open style of play driven by elite team quality, tactical risk-taking, and knockout-stage incentives.
+
+From a business perspective, higher scoring intensity directly enhances:
+
+- Viewer engagement and match entertainment value
+
+- Broadcast attractiveness and advertising premiums
+
+- Global audience retention for marquee fixtures
+
+This reinforces why the Champions League commands premium broadcasting rights relative to domestic competitions.
 
 <p align="center">
   <img src="visuals/Score%20Intensity.png" width="92%">
@@ -137,8 +146,17 @@ The UEFA Champions League consistently records the highest average goals per mat
 
 ## Home Advantage Is Structural
 
-💡 **Insight**  
-Home teams score more goals across all competitions and seasons, confirming home advantage as a structural factor rather than random variation.
+Across all competitions and seasons, home teams consistently score more goals than away teams, confirming that home advantage is a persistent structural factor, not a short-term anomaly. The table highlights a clear home-goal **premium ranging from +0.29 to +0.42 goals per match**, with the Champions League exhibiting the strongest home advantage. Even in the Premier League—often considered tactically balanced—the home advantage remains statistically meaningful.
+
+For stakeholders, this insight has direct implications for:
+
+- Match outcome forecasting and betting markets
+
+- Fixture scheduling and competitive fairness
+
+- Team performance evaluation and tactical planning
+
+Home advantage remains an embedded feature of football economics and performance modeling.
 
 <p align="center">
   <img src="visuals/Home%20Advantage%20KPI.png" width="92%">
@@ -152,8 +170,17 @@ Home teams score more goals across all competitions and seasons, confirming home
 
 ## Competitive Balance by League
 
-💡 **Insight**  
-Domestic leagues such as LaLiga and the Premier League show wider performance gaps than the Champions League, indicating uneven competitiveness.
+Domestic leagues exhibit significantly wider competitiveness gaps than the Champions League, indicating a higher concentration of performance among top teams. As visualized, LaLiga and the Premier League show competitiveness gaps exceeding 100 points in 2024, compared to sub-50 gaps in the Champions League. This suggests that domestic leagues are more frequently dominated by a small group of elite clubs.
+
+From a commercial standpoint, uneven competitive balance can:
+
+- Reduce long-term fan engagement
+
+- Increase predictability of outcomes
+
+- Concentrate commercial value around top clubs
+
+The Champions League’s comparatively tighter gap supports its positioning as a more competitively balanced global product.
 
 <p align="center">
   <img src="visuals/League%20Competitiveness.png" width="92%">
@@ -166,8 +193,23 @@ Domestic leagues such as LaLiga and the Premier League show wider performance ga
 
 ## Scoring Volatility in Champions League
 
-💡 **Insight**  
-The Champions League exhibits higher year-over-year scoring volatility, driven by knockout dynamics and elite team concentration.
+The Champions League demonstrates higher year-over-year scoring volatility compared to domestic leagues, reflecting its knockout structure and dynamic team composition.The volatility chart shows noticeable shifts in scoring patterns between 2024 and 2025, unlike the more stable trends observed in LaLiga and the Premier League. This volatility is driven by:
+
+- Knockout match pressure
+
+- Short tournament horizons
+
+- Elite team rotation and tactical adaptation
+
+For broadcasters and analysts, higher volatility increases:
+
+- Match unpredictability
+
+- Viewer suspense
+
+- Demand for advanced forecasting and analytics
+
+This reinforces the Champions League’s identity as a high-risk, high-reward competition.
 
 <p align="center">
   <img src="visuals/Scoring%20Volatility%20by%20Competition%20(2024%20vs%202025).png" width="92%">
