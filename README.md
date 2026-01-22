@@ -238,7 +238,7 @@ Based on these findings:
 ## Project Structure & Analytics Deliverables
 
 This repository is structured to reflect a real-world, enterprise-style analytics workflow, covering the complete lifecycle from API ingestion → data warehousing → business insights → executive visuals. Each directory represents a clear responsibility within the analytics pipeline.
-
+```
 FOOTBALLDATALAKEHOUSE/
 │
 ├── analytics/
@@ -309,6 +309,7 @@ FOOTBALLDATALAKEHOUSE/
 │
 └── requirements.txt
     # Python dependencies for reproducibility
+```
 ---
 
 
