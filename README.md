@@ -135,10 +135,13 @@ From a business perspective, higher scoring intensity directly enhances:
 
 This reinforces why the Champions League commands premium broadcasting rights relative to domestic competitions.
 
-<p align="center">
-  <img src="visuals/Score%20Intensity.png" width="92%">
-</p>
+<br/>
 
+<div align="center">
+  <img src="visuals/Home%20Advantage%20KPI.png" width="100%" />
+</div>
+
+<br/>
 
 ---
 
