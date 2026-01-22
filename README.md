@@ -123,7 +123,7 @@ This mirrors **enterprise data warehouse design**, not ad-hoc analysis.
 
 ## Scoring Intensity Across Competitions
 
-The UEFA Champions League consistently demonstrates the highest scoring intensity, with average goals per match exceeding both** LaLiga and the Premier League across the 2024 and 2025 seasons**. As shown in the visualization, Champions League matches average above 3.3 goals per match, compared to approximately 2.6–2.9 goals in domestic leagues. This indicates a structurally more open style of play driven by elite team quality, tactical risk-taking, and knockout-stage incentives.
+The UEFA Champions League consistently demonstrates the highest scoring intensity, with average goals per match exceeding both **LaLiga and the Premier League across the 2024 and 2025 seasons**. As shown in the visualization, Champions League matches average above 3.3 goals per match, compared to approximately 2.6–2.9 goals in domestic leagues. This indicates a structurally more open style of play driven by elite team quality, tactical risk-taking, and knockout-stage incentives.
 
 From a business perspective, higher scoring intensity directly enhances:
 
@@ -138,7 +138,7 @@ This reinforces why the Champions League commands premium broadcasting rights re
 <br/>
 
 <div align="center">
-  <img src="visuals/Home%20Advantage%20KPI.png" width="100%" />
+  <img src="visuals/Score%20Intensity.png" width="100%" />
 </div>
 
 <br/>
