@@ -218,18 +218,94 @@ This reinforces the Champions League’s identity as a high-risk, high-reward co
 
 ---
 
-# Strategic Recommendations
+## Strategic Recommendations
+
+<table width="90%" align="center">
+<tr><td>
+
+Based on the analytical findings, the following strategic recommendations are proposed for key stakeholders across the football ecosystem:
+
+---
+
+### Actively Manage Competitive Balance to Sustain Fan Engagement
+
+The analysis reveals widening performance gaps in domestic leagues, particularly in **LaLiga** and the **Premier League**. Persistent dominance by a small group of clubs reduces match unpredictability and poses a long-term risk to fan engagement.
+
+**Recommended actions:**
+- Monitor competitive balance KPIs on a season-over-season basis
+- Introduce or refine financial and regulatory mechanisms to limit excessive performance concentration
+- Use competitiveness metrics as early-warning indicators of declining league parity
+
+Maintaining competitive balance is critical to protecting audience growth, match attendance, and long-term commercial value.
+
+---
+
+### Leverage Champions League Volatility for Broadcast & Commercial Strategy
+
+The **UEFA Champions League** demonstrates higher scoring volatility and intensity than domestic leagues, driven by knockout-stage dynamics and elite team concentration.
+
+**Recommended actions:**
+- Prioritize high-volatility fixtures for prime-time scheduling
+- Align advertising and sponsorship pricing with match intensity metrics
+- Explicitly incorporate volatility indicators into broadcast rights valuation models
+
+These characteristics directly support the Champions League’s premium global positioning.
+
+---
+
+### Use Home Advantage Metrics for Tactical & Operational Planning
+
+Home advantage remains a persistent structural factor across all competitions, with a measurable goal premium ranging from **+0.29 to +0.42 goals per match**.
+
+**Recommended actions:**
+- Incorporate home-advantage adjustments into tactical planning and squad rotation
+- Evaluate fixture scheduling fairness using home-bias indicators
+- Adjust predictive and performance models to reflect structural home advantage
+
+Ignoring home advantage introduces systematic bias into forecasting and evaluation processes.
+
+---
+
+### Benchmark Club Dominance for Performance & Investment Decisions
+
+A limited number of elite clubs consistently drive league outcomes and scoring dominance, creating high performance concentration.
+
+**Recommended actions:**
+- Benchmark club performance against league-level dominance thresholds
+- Identify high-impact clubs for sponsorship and long-term investment decisions
+- Use dominance metrics to evaluate whether league outcomes align with competitive objectives
+
+Objective benchmarking enables performance assessment beyond league position alone.
+
+---
+
+### Institutionalize KPI-Driven Decision Making
+
+The KPIs developed in this project—**scoring intensity, volatility, home advantage, and competitive balance**—form a reusable analytical framework.
+
+**Recommended actions:**
+- Integrate these KPIs into recurring league and club performance reviews
+- Standardize metrics across competitions for consistent comparison
+- Extend the framework into forecasting, valuation, and risk modeling use cases
+
+This enables a shift from intuition-based decisions to **evidence-driven strategic planning**.
+
+---
+
+## Strategic Value Delivered
+
+By operationalizing these insights, stakeholders can:
+
+- Protect long-term fan engagement
+- Maximize broadcast and sponsorship value
+- Improve competitive fairness
+- Enable data-driven league and club strategy
+
+This project demonstrates how **well-structured sports data can function as a strategic business asset**, not merely a reporting tool.
 
 
-
-Based on these findings:
-
-- League operators should monitor competitive balance to protect long-term fan engagement
-- Broadcasters can anticipate higher volatility in Champions League fixtures
-- Clubs can benchmark dominance relative to league norms
-- Analysts can integrate KPIs into forecasting and valuation models
-
-
+</td></tr>
+</table>
 
 ---
 
@@ -237,6 +313,10 @@ Based on these findings:
 
 ## Project Structure & Analytics Deliverables
 
+<table width="90%" align="center">
+<tr><td>
+
+ 
 This repository is structured to reflect a real-world, enterprise-style analytics workflow, covering the complete lifecycle from API ingestion → data warehousing → business insights → executive visuals. Each directory represents a clear responsibility within the analytics pipeline.
 ```
 FOOTBALLDATALAKEHOUSE/
@@ -310,31 +390,11 @@ FOOTBALLDATALAKEHOUSE/
 └── requirements.txt
     # Python dependencies for reproducibility
 ```
----
 
-
-
-## Tools & Analytics Stack
-
-- SQL (DuckDB)
-- Python (Data Processing & Automation)
-- Excel / Power BI (Visualization)
-- GitHub (Version Control & Presentation)
-
+</td></tr>
+</table>
 
 
 ---
 
-
-
-## Final Outcome
-
-This project demonstrates:
-
-- End-to-end analytics ownership
-- Enterprise-style data warehouse design
-- Business storytelling through data
-- Decision-focused insights
-
-This reflects **real-world analytics work**, not academic exercises.
 
