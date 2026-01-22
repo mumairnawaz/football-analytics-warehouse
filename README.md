@@ -20,7 +20,8 @@
 
 ---
 
-
+<table width="90%" align="center">
+<tr><td>
 
 ## Background
 
@@ -45,6 +46,8 @@ This project was created to replicate that real-world scenario and answer questi
 
  The focus is on business relevance, not fan opinion.
 
+</td></tr>
+</table>
 
 
 ---
