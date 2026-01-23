@@ -85,11 +85,13 @@ The final output is a set of decision-ready KPIs, suitable for strategic use by:
 
 ---
 
-## Project Structure & Analytics Deliverables
+
 
 <table width="90%" align="center">
 <tr><td>
 
+
+## Project Structure & Analytics Deliverables
  
 This repository is structured to reflect a real-world, enterprise-style analytics workflow, covering the complete lifecycle from API ingestion → data warehousing → business insights → executive visuals. Each directory represents a clear responsibility within the analytics pipeline.
 ```
@@ -304,10 +306,11 @@ This reinforces the Champions League’s identity as a high-risk, high-reward co
 
 ---
 
-## Strategic Recommendations
 
 <table width="90%" align="center">
 <tr><td>
+
+## Strategic Recommendations
 
 Based on the analytical findings, the following strategic recommendations are proposed for key stakeholders across the football ecosystem:
 
