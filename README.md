@@ -1,26 +1,26 @@
-# football-league-performance-analysis
+# Football Data Lakehouse for Performance Analytics
 
 ## Table of Contents
 
-> - [Background](#background)
-> - [Executive Summary](#executive-summary)
-> - [Project Structure & Analytics Deliverables](#project-structure--analytics-deliverables)
-> - [Data Architecture & Methodology](#data-architecture--methodology)
->   - [Bronze Layer — External API Ingestion (Source of Truth)](#bronze-layer--external-api-ingestion-source-of-truth)
->   - [Silver Layer — Data Cleaning & Standardization](#silver-layer--data-cleaning--standardization)
->   - [Gold Layer — Analytical Models & Business KPIs](#gold-layer--analytical-models--business-kpis)
->   - [Analytical Access & Consumption](#analytical-access--consumption)
-> - [Business Insights](#business-insights)
->   - [Scoring Intensity Across Competitions](#scoring-intensity-across-competitions)
->   - [Home Advantage Is Structural](#home-advantage-is-structural)
->   - [Competitive Balance by League](#competitive-balance-by-league)
->   - [Scoring Volatility in Champions League](#scoring-volatility-in-champions-league)
-> - [Strategic Recommendations](#strategic-recommendations)
->   - [Actively Manage Competitive Balance to Sustain Fan Engagement](#actively-manage-competitive-balance-to-sustain-fan-engagement)
->   - [Leverage Champions League Volatility for Broadcast & Commercial Strategy](#leverage-champions-league-volatility-for-broadcast--commercial-strategy)
->   - [Use Home Advantage Metrics for Tactical & Operational Planning](#use-home-advantage-metrics-for-tactical--operational-planning)
->   - [Benchmark Club Dominance for Performance & Investment Decisions](#benchmark-club-dominance-for-performance--investment-decisions)
->   - [Institutionalize KPI-Driven Decision Making](#institutionalize-kpi-driven-decision-making)
+- [Background](#background)
+- [Executive Summary](#executive-summary)
+- [Project Structure & Analytics Deliverables](#project-structure--analytics-deliverables)
+- [Data Architecture & Methodology](#data-architecture--methodology)
+  - [Bronze Layer — External API Ingestion (Source of Truth)](#bronze-layer--external-api-ingestion-source-of-truth)
+  - [Silver Layer — Data Cleaning & Standardization](#silver-layer--data-cleaning--standardization)
+  - [Gold Layer — Analytical Models & Business KPIs](#gold-layer--analytical-models--business-kpis)
+  - [Analytical Access & Consumption](#analytical-access--consumption)
+- [Business Insights](#business-insights)
+  - [Scoring Intensity Across Competitions](#scoring-intensity-across-competitions)
+  - [Home Advantage Is Structural](#home-advantage-is-structural)
+  - [Competitive Balance by League](#competitive-balance-by-league)
+  - [Scoring Volatility in Champions League](#scoring-volatility-in-champions-league)
+- [Strategic Recommendations](#strategic-recommendations)
+  - [Strengthen Competitive Balance to Protect Fan Engagement](#strengthen-competitive-balance-to-protect-fan-engagement)
+  - [Use Champions League Match Dynamics to Maximize Broadcast Value](#use-champions-league-match-dynamics-to-maximize-broadcast-value)
+  - [Incorporate Home Advantage into Performance Evaluation](#incorporate-home-advantage-into-performance-evaluation)
+- [Final Outcome](#final-outcome)
+
 
 ---
 
