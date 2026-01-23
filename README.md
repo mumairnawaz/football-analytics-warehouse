@@ -23,7 +23,7 @@
 <table width="90%" align="center">
 <tr><td>
 
-## Background
+# Background
 
 Modern football has evolved into a data-driven commercial ecosystem. Broadcasting rights, sponsorship deals, player valuation, and fan engagement are increasingly influenced by league competitiveness, scoring behavior, and performance concentration.
 
@@ -55,7 +55,7 @@ This project was created to replicate that real-world scenario and answer questi
 <table width="90%" align="center">
 <tr><td>
 
-## Executive Summary
+# Executive Summary
 
 This project presents an end-to-end football analytics case study analyzing performance across the **UEFA Champions League, Premier League, and LaLiga for the 2024–2025 seasons**. Rather than relying on pre-packaged datasets, match data was retrieved directly from an external football API, simulating how analytics teams ingest live or third-party data in production environments.
 
@@ -91,7 +91,7 @@ The final output is a set of decision-ready KPIs, suitable for strategic use by:
 <tr><td>
 
 
-## Project Structure & Analytics Deliverables
+# Project Structure & Analytics Deliverables
  
 This repository is structured to reflect a real-world, enterprise-style analytics workflow, covering the complete lifecycle from API ingestion → data warehousing → business insights → executive visuals. Each directory represents a clear responsibility within the analytics pipeline.
 ```
@@ -177,7 +177,7 @@ FOOTBALLDATALAKEHOUSE/
 <table width="90%" align="center">
 <tr><td>
  
-## Data Architecture & Methodology
+# Data Architecture & Methodology
 
 A **medallion-style analytics architecture** was implemented to ensure reliability, auditability, and scalability.
 
