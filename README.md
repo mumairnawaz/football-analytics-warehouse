@@ -267,17 +267,6 @@ To support fast iteration and exploration:
 
 This approach reflects how analytics teams **bridge engineering and business stakeholders**.
 
----
-
-### Why This Architecture Was Chosen
-
-This architecture demonstrates capabilities expected of **Senior Data Analysts and Analytics Engineers**, including:
-
-- Designing ingestion pipelines from external sources
-- Implementing layered data models
-- Enforcing data quality and consistency
-- Modeling business KPIs with clear definitions
-- Preparing data for BI and executive consumption
 
 
 </td></tr>
