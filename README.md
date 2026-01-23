@@ -85,6 +85,92 @@ The final output is a set of decision-ready KPIs, suitable for strategic use by:
 
 ---
 
+## Project Structure & Analytics Deliverables
+
+<table width="90%" align="center">
+<tr><td>
+
+ 
+This repository is structured to reflect a real-world, enterprise-style analytics workflow, covering the complete lifecycle from API ingestion → data warehousing → business insights → executive visuals. Each directory represents a clear responsibility within the analytics pipeline.
+```
+FOOTBALLDATALAKEHOUSE/
+│
+├── analytics/
+│   └── sql_queries.sql
+│       # Final business-grade SQL queries
+│       # Used to generate KPIs, insights, and CSV exports
+│
+├── data/
+│   ├── bronze/
+│   │   └── matches/
+│   │       # Raw JSON match data ingested directly from the Football API
+│   │       # Stored without transformation for full traceability
+│   │
+│   ├── silver/
+│   │   └── matches/
+│   │       └── matches_clean.parquet
+│   │           # Cleaned and standardized match-level dataset
+│   │           # Ready for analytical modeling
+│   │
+│   ├── gold/
+│   │   ├── fact_matches.parquet
+│   │   │   # Match-level fact table (grain: one row per match)
+│   │   │
+│   │   ├── league_kpis.parquet
+│   │   │   # Aggregated KPIs by competition and season
+│   │   │
+│   │   └── team_performance.parquet
+│   │       # Team-level performance metrics
+│   │       # (goals, goals conceded, goal difference, dominance)
+│   │
+│   └── exports/
+│       # Business-ready KPI outputs generated from SQL
+│       ├── kpi_score_intensity.csv
+│       ├── kpi_home_advantage.csv
+│       ├── kpi_top_teams.csv
+│       ├── kpi_competitiveness_gap.csv
+│       └── kpi_scoring_volatility.csv
+│
+├── ingestion/
+│   └── fetch_matches.py
+│       # API ingestion script
+│       # Fetches match data by competition and season
+│
+├── transformation/
+│   ├── clean_matches.py
+│   │   # Transforms raw JSON into standardized Silver layer
+│   │
+│   └── build_gold.py
+│       # Builds Gold-layer fact tables and business KPIs
+│
+├── notebooks/
+│   └── validate_gold.py
+│       # Data validation and quality checks
+│
+├── visuals/
+│   # Executive-level visual outputs used in README and presentations
+│   ├── score_intensity.png
+│   ├── home_advantage.png
+│   ├── top_teams.png
+│   ├── competitiveness_gap.png
+│   └── scoring_volatility.png
+│
+├── README.md
+│   # Business-focused case study documentation
+│
+├── LICENSE
+│   # MIT License
+│
+└── requirements.txt
+    # Python dependencies for reproducibility
+```
+
+</td></tr>
+</table>
+
+
+---
+
 
 <table width="90%" align="center">
 <tr><td>
@@ -311,90 +397,5 @@ This project demonstrates how **well-structured sports data can function as a st
 
 
 
-## Project Structure & Analytics Deliverables
-
-<table width="90%" align="center">
-<tr><td>
-
- 
-This repository is structured to reflect a real-world, enterprise-style analytics workflow, covering the complete lifecycle from API ingestion → data warehousing → business insights → executive visuals. Each directory represents a clear responsibility within the analytics pipeline.
-```
-FOOTBALLDATALAKEHOUSE/
-│
-├── analytics/
-│   └── sql_queries.sql
-│       # Final business-grade SQL queries
-│       # Used to generate KPIs, insights, and CSV exports
-│
-├── data/
-│   ├── bronze/
-│   │   └── matches/
-│   │       # Raw JSON match data ingested directly from the Football API
-│   │       # Stored without transformation for full traceability
-│   │
-│   ├── silver/
-│   │   └── matches/
-│   │       └── matches_clean.parquet
-│   │           # Cleaned and standardized match-level dataset
-│   │           # Ready for analytical modeling
-│   │
-│   ├── gold/
-│   │   ├── fact_matches.parquet
-│   │   │   # Match-level fact table (grain: one row per match)
-│   │   │
-│   │   ├── league_kpis.parquet
-│   │   │   # Aggregated KPIs by competition and season
-│   │   │
-│   │   └── team_performance.parquet
-│   │       # Team-level performance metrics
-│   │       # (goals, goals conceded, goal difference, dominance)
-│   │
-│   └── exports/
-│       # Business-ready KPI outputs generated from SQL
-│       ├── kpi_score_intensity.csv
-│       ├── kpi_home_advantage.csv
-│       ├── kpi_top_teams.csv
-│       ├── kpi_competitiveness_gap.csv
-│       └── kpi_scoring_volatility.csv
-│
-├── ingestion/
-│   └── fetch_matches.py
-│       # API ingestion script
-│       # Fetches match data by competition and season
-│
-├── transformation/
-│   ├── clean_matches.py
-│   │   # Transforms raw JSON into standardized Silver layer
-│   │
-│   └── build_gold.py
-│       # Builds Gold-layer fact tables and business KPIs
-│
-├── notebooks/
-│   └── validate_gold.py
-│       # Data validation and quality checks
-│
-├── visuals/
-│   # Executive-level visual outputs used in README and presentations
-│   ├── score_intensity.png
-│   ├── home_advantage.png
-│   ├── top_teams.png
-│   ├── competitiveness_gap.png
-│   └── scoring_volatility.png
-│
-├── README.md
-│   # Business-focused case study documentation
-│
-├── LICENSE
-│   # MIT License
-│
-└── requirements.txt
-    # Python dependencies for reproducibility
-```
-
-</td></tr>
-</table>
-
-
----
 
 
