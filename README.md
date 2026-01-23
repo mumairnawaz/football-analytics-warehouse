@@ -310,7 +310,7 @@ This reinforces the Champions League’s identity as a high-risk, high-reward co
 <table width="90%" align="center">
 <tr><td>
 
-## Strategic Recommendations
+# Strategic Recommendations
 
 Based on the analytical findings, the following strategic recommendations are proposed for key stakeholders across the football ecosystem:
 
@@ -381,7 +381,7 @@ This enables a shift from intuition-based decisions to **evidence-driven strateg
 
 ---
 
-## Strategic Value Delivered
+# Strategic Value Delivered
 
 By operationalizing these insights, stakeholders can:
 
